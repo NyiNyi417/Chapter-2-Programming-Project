@@ -2,21 +2,23 @@
 //
 
 #include <iostream>
-
 using namespace std;
-
 int main()
-
 {
-    //Step 1: set the 20 - gallon gas tank
-    float gastank = 20;
-    //Step 2 : Display 20 * 23.5
-    cout << gastank * 23.5 << endl;
-    //Step 3 : Display 20 * 28.9
-    cout << gastank * 28.9 << endl;
+    //Step 1: display purchasers = 16500 * 0.15
+    int customers = 16500;
+    cout << "Intial customers is: " << customers << endl;
+
+    double purchasers = customers * 0.15;
+    cout << "The amount of people purchasing energy drinks from this company is: " << purchasers << endl;
+
+    //Step 2 : display citrus = purchasers * 0.58
+    double citrus = purchasers * 0.58;
+
+    cout << "The amount of purchasers buying citrus energy drinks are: " << citrus << endl;
 
 
-    return 0; 
+    return 0;
 
 }
 
