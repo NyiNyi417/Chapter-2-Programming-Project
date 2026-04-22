@@ -2,22 +2,18 @@
 //
 
 #include <iostream>
-#include <chrono>
+
+using namespace std;
 
 int main()
+
 {
-    //Step 1: Set the current ocean level
-    float rise_rate = 1.5;
-    // Step 2 : Calculate the ocean level in 5, 7, 10 years. 
-    float print = 1.5 * 5;
-    std::cout << "The new ocean level rise rate in years is:" << print;
-
-    print = 1.5 * 7;
-    std::cout << "The new ocean level rise rate in years is:" << print;
-
-    print = 1.5 * 10;
-    // Step 3 : Display the ocean level in 5, 7, and 10 years.
-    std::cout << "The new ocean level rise rate in years is:" << print;
+    //Step 1: set the 20 - gallon gas tank
+    float gastank = 20;
+    //Step 2 : Display 20 * 23.5
+    cout << gastank * 23.5 << endl;
+    //Step 3 : Display 20 * 28.9
+    cout << gastank * 28.9 << endl;
 
 
     return 0; 
