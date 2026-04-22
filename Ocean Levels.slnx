@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Ocean Levels/Ocean Levels.vcxproj" Id="8d20399f-d5ed-4bf7-8900-03b2b6795a59" />
+</Solution>
